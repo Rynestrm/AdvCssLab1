@@ -103,6 +103,10 @@ textarea {
     color: #5730c5;
   }
 
+  a {
+    color: #000;
+  }
+
   a:visited{
     color: #000;
   }
