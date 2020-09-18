@@ -1,8 +1,13 @@
+
+const navButton = document.querySelector('.navButton')
+
+// ***** Functions *****
+
 // function to add a class
-function hideElement() {
-    let hidden = document.querySelector(".footerNote");
-    hidden.classList.add("hidden");
+function toggleElement() {
+    let toggle = document.querySelector(".nav");
+    toggle.classList.toggle("hidden");
 }
 
-// runs on page load
-hideElement();
+// event listeners
+navButton.addEventListener("click", toggleElement);
